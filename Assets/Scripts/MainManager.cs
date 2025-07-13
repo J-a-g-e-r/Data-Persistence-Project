@@ -78,9 +78,9 @@ public class MainManager : MonoBehaviour
         if (DataManager.Instance.BestScore < m_Points)
         {
             DataManager.Instance.BestScore = m_Points;
-            DataManager.Instance.SaveTopPlayer();
+            DataManager.Instance.SaveGameData();
         }
-        DataManager.Instance.SaveBestScore();
+        
     }
 
 

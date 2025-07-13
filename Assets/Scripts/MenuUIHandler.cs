@@ -14,7 +14,8 @@ public class MenuUIHandler : MonoBehaviour
     public Text bestScore;
     void Start()
     {
-        
+        bestScore.text = "Best Score: " + DataManager.Instance.TopPlayer + $": {DataManager.Instance.BestScore}";
+
     }
 
     // Update is called once per frame
